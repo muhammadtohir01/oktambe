@@ -39,4 +39,6 @@ def main():
         # process update
         dp.process_update(update=update)
         return {'status': 400}
-    print(bot.setWebhook('https://oktambek01.pythonanywhere.com/'))
+    # bot.setWebhook('https://oktambek01.pythonanywhere.com/')
+if __name__ == '__main__':
+    app.run(debug=True)
